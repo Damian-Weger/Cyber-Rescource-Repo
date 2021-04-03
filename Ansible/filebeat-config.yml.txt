@@ -1,0 +1,72 @@
+  GNU nano 2.9.3                                                                                                                 filebeat-config.yml
+
+    #input:
+
+  # Debug logs
+  #debug:
+    #enabled: true
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+    # Input configuration (advanced). Any input configuration option
+    # can be added under this section.
+    #input:
+
+  # Startup logs
+  #startup:
+    #enabled: true
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+    # Input configuration (advanced). Any input configuration option
+    # can be added under this section.
+    #input:
+
+#--------------------------------- IIS Module ---------------------------------
+#- module: iis
+  # Access logs
+  #access:
+    #enabled: true
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+    # Input configuration (advanced). Any input configuration option
+    # can be added under this section.
+    #input:
+
+  # Error logs
+  #error:
+    #enabled: true
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+    # Input configuration (advanced). Any input configuration option
+    # can be added under this section.
+    #input:
+
+#-------------------------------- Kafka Module --------------------------------
+- module: kafka
+  # All logs
+  log:
+    enabled: true
+
+    # Set custom paths for Kafka. If left empty,
+    # Filebeat will look under /opt.
+    #var.kafka_home:
+
+    # Set custom paths for the log files. If left empty,
+    # Filebeat will choose the paths depending on your OS.
+    #var.paths:
+
+#-------------------------------- Kibana Module --------------------------------
+                                                                                                          [ line 148/2065 (7%), col 1/39 (2%), char 4285/73067 (5%) ]
+^G Get Help       ^O Write Out      ^W Where Is       ^K Cut Text       ^J Justify        ^C Cur Pos        M-U Undo          M-A Mark Text     M-] To Bracket    ^B Back           ^Left Prev Word   ^A Home           ^P Prev Line      M-- Scroll Up     ^Up Prev Block
+^X Exit           ^R Read File      ^\ Replace        ^U Uncut Text     ^T To Spell       ^_ Go To Line     M-E Redo          M-6 Copy Text     M-W WhereIs Next  ^F Forward        ^Right Next Word  ^E End            ^N Next Line      M-+ Scroll Down   ^Down Next Block
