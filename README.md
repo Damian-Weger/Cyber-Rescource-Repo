@@ -1,6 +1,6 @@
 # Cyber-Rescource-Repo
 Repo for my cyber related files and directories 
-
+*VIEW RAW FOR PROPER LAYOUT*
 Work In Progress
 
 Cyber-Rescource-Repo
