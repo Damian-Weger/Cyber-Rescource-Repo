@@ -1,5 +1,5 @@
 # Cyber-Rescource-Repo
-Repo for my cyber related files and directories
+Repo for my cyber related files and directories 
 
 Work In Progress
 
@@ -9,4 +9,6 @@ Cyber-Rescource-Repo
   Diagrams
     Network Diagrams
   Linux
-    Linux Administration Shell Scripts
+    Var_and_if script, List_andloops script, useful_loops script
+  
+
