@@ -1,4 +1,5 @@
-  GNU nano 2.9.3                filebeat-playbook.yml
+
+# Playbook for downloading, installing, and enabling Filebeat
 
 ---
 - name: installing and launching filebeat
@@ -6,16 +7,20 @@
   become: yes
   tasks:
 
+# Command to download Filebeat
   - name: download filebeat deb
     command: curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/f$
 
+# Command to install Filebeat
   - name: install filebeat deb
     command: dpkg -i filebeat-7.4.0-amd64.deb
 
+# Command to drop in Filebeat
   - name: drop in filebeat.yml
     copy:
       src: /etc/ansible/filebeat-config.yml
       dest: /etc/filebeat/filebeat.yml
 
+# Command to enable and configure the system modules for Filebeat
   - name: enable and configure system module
     command: filebeat modules enable system
